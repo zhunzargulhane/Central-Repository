@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="145" started-at="2018-09-29T03:29:55Z" finished-at="2018-09-29T03:29:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="145" started-at="2018-09-29T03:29:55Z" finished-at="2018-09-29T03:29:55Z">
+      <class name="org.seleniumhq.selenium.RestAPITest">
+        <test-method status="PASS" signature="postjira()[pri:0, instance:org.seleniumhq.selenium.RestAPITest@475530b9]" name="postjira" duration-ms="44" started-at="2018-09-29T03:29:55Z" finished-at="2018-09-29T03:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postjira -->
+        <test-method status="PASS" signature="twitterdelete()[pri:0, instance:org.seleniumhq.selenium.RestAPITest@475530b9]" name="twitterdelete" duration-ms="4" started-at="2018-09-29T03:29:55Z" finished-at="2018-09-29T03:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterdelete -->
+      </class> <!-- org.seleniumhq.selenium.RestAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

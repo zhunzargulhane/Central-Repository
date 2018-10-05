@@ -1,0 +1,3 @@
+org\seleniumhq\selenium\AppiumTest.class
+org\seleniumhq\selenium\SeleniumTest.class
+org\seleniumhq\selenium\RestAPITest.class
