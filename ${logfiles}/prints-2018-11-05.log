@@ -1,0 +1,6 @@
+16:41:40.474 [main] INFO  packagenameyes.textValidation - browser is opened successfully
+16:41:40.961 [main] DEBUG packagenameyes.textValidation - Trying to close the pop up window
+16:41:51.562 [main] INFO  packagenameyes.textValidation - pop up window is closed successfully
+16:41:51.562 [main] DEBUG packagenameyes.textValidation - comparing the title
+16:41:54.645 [main] INFO  packagenameyes.textValidation - browser is closed successfully
+16:43:59.214 [main] DEBUG packagenameyes.textValidation - Invoking the browser

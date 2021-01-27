@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+   <listeners>
+    <listener class-name="customListeners.Listener1"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+    
+  </listeners> 
+  <test name="MSA Pro">
+    <classes>
+      <class name="packagenameyes.TextValidationTest">
+      <methods>
+         <include name="textvalidation"></include>
+      </methods>
+      </class>
+     </classes>
+  </test>
+ 
+</suite> 

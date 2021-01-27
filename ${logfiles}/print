@@ -1,0 +1,6 @@
+08:28:14.044 [main] DEBUG testBase.Baseclass - comparing the title
+08:28:14.215 [main] INFO  testBase.Baseclass - done successfully
+08:33:46.319 [main] DEBUG testBase.Baseclass - Trying to close the pop up window
+08:33:55.883 [main] INFO  testBase.Baseclass - pop up window is closed successfully
+08:33:55.883 [main] DEBUG testBase.Baseclass - comparing the title
+08:33:56.251 [main] INFO  testBase.Baseclass - done successfully

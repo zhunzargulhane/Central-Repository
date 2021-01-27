@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="customListeners.Listener1"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="MSA Pro(failed)(failed)">
+    <classes>
+      <class name="packagenameyes.textValidation">
+        <methods>
+          <include name="textvalidation"/>
+          <include name="closebrowser"/>
+          <include name="initialzedriver"/>
+        </methods>
+      </class> <!-- packagenameyes.textValidation -->
+    </classes>
+  </test> <!-- MSA Pro(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

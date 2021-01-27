@@ -1,0 +1,7 @@
+22:33:11.497 [main] DEBUG packagenameyes.textValidation - Invoking the browser
+18:26:55.327 [main] DEBUG testBase.Baseclass - Invoking the browser
+18:27:42.852 [main] INFO  testBase.Baseclass - browser is opened successfully
+18:27:43.043 [main] DEBUG testBase.Baseclass - Trying to close the pop up window
+18:27:47.095 [main] INFO  testBase.Baseclass - pop up window is closed successfully
+18:27:47.095 [main] DEBUG testBase.Baseclass - comparing the title
+18:27:47.678 [main] INFO  testBase.Baseclass - browser is closed successfully

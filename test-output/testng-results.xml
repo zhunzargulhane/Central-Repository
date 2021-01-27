@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75987" started-at="2020-02-08T04:47:39Z" finished-at="2020-02-08T04:48:55Z">
+    <groups>
+    </groups>
+    <test name="MSA Pro" duration-ms="75987" started-at="2020-02-08T04:47:39Z" finished-at="2020-02-08T04:48:55Z">
+      <class name="packagenameyes.TextValidationTest">
+        <test-method status="PASS" signature="intializereport()[pri:0, instance:packagenameyes.TextValidationTest@5c6648b0]" name="intializereport" is-config="true" duration-ms="235" started-at="2020-02-08T04:47:39Z" finished-at="2020-02-08T04:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializereport -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:packagenameyes.TextValidationTest@5c6648b0]" name="initializeDriver" is-config="true" duration-ms="65628" started-at="2020-02-08T04:47:39Z" finished-at="2020-02-08T04:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="textvalidation()[pri:0, instance:packagenameyes.TextValidationTest@5c6648b0]" name="textvalidation" duration-ms="8454" started-at="2020-02-08T04:48:45Z" finished-at="2020-02-08T04:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textvalidation -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:packagenameyes.TextValidationTest@5c6648b0]" name="browserclose" is-config="true" duration-ms="1851" started-at="2020-02-08T04:48:53Z" finished-at="2020-02-08T04:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method status="PASS" signature="reportclose()[pri:0, instance:packagenameyes.TextValidationTest@5c6648b0]" name="reportclose" is-config="true" duration-ms="4" started-at="2020-02-08T04:48:55Z" finished-at="2020-02-08T04:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+      </class> <!-- packagenameyes.TextValidationTest -->
+    </test> <!-- MSA Pro -->
+  </suite> <!-- Suite -->
+</testng-results>
