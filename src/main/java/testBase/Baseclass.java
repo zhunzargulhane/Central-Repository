@@ -86,7 +86,7 @@ public class Baseclass {
 		if(browser.equals("chrome"))
 		{
 			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\chromedriver.exe");
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/java/Resources/chromedriver");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/java/Resources/chromedriver.exe");
 			ChromeOptions options=new ChromeOptions();
 			DesiredCapabilities capabilities=new DesiredCapabilities();
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
