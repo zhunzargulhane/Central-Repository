@@ -58,7 +58,8 @@ public class Baseclass {
 	 {
 		 
 		 //System.getProperty("user.dir") +"/test-output/
-		reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\test-output\\ProjectExtentReport.html");
+	//	reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\test-output\\ProjectExtentReport.html");
+		reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ProjectExtentReport.html");
     	//create extent reports and attach reports
     	extent=new ExtentReports();
     	extent.attachReporter(reporter);
@@ -77,14 +78,15 @@ public class Baseclass {
 	{
 		
 		prop=new Properties();
-		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\data.properties");
+		//FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\data.properties");
+		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"/src/main/java/Resources/data.properties");
 		prop.load(fis);
 		//String browser=System.getProperty("browser");
 		String browser=prop.getProperty("browser");
 		if(browser.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\chromedriver.exe");
-			
+			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/java/Resources/chromedriver.exe");
 			ChromeOptions options=new ChromeOptions();
 			DesiredCapabilities capabilities=new DesiredCapabilities();
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
