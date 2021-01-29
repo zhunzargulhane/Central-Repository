@@ -94,8 +94,8 @@ public class Baseclass {
 			capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS,true);
 			options.setHeadless(true);
 
-			options.addArguments("no-sandbox");
-                        options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--no-sandbox");
+                        //options.addArguments("--disable-dev-shm-usage");
                         options.addArguments("--disable-extensions");
                         options.addArguments("--headless");
 			//options.addArguments("--window-size=1280x800");
