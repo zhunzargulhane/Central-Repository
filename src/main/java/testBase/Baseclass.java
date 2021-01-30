@@ -98,7 +98,7 @@ public class Baseclass {
                         //options.addArguments("--disable-dev-shm-usage");
                         options.addArguments("--disable-extensions");
                         options.addArguments("--headless");
-			//options.addArguments("--window-size=1280x800");
+			options.addArguments("--window-size=1280x800");
 			driver=new ChromeDriver(options);
 		
 		}
