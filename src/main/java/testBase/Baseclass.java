@@ -92,14 +92,14 @@ public class Baseclass {
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 			capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS,true);
 			capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS,true);
-			options.setHeadless(true);
+			//options.setHeadless(true);
 
 			options.addArguments("--no-sandbox");
                         options.addArguments("--disable-setupid-sandbox");
-                        options.addArguments("--disable-dev-shm-usage");
-                        options.addArguments("--disable-extensions");
+                       //options.addArguments("--disable-dev-shm-usage");
+                        //options.addArguments("--disable-extensions");
                         options.addArguments("--headless");
-			options.addArguments("--window-size=1280x800");
+			//options.addArguments("--window-size=1280x800");
 			driver=new ChromeDriver(options);
 		
 		}
