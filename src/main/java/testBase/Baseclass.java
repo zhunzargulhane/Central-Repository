@@ -100,7 +100,8 @@ public class Baseclass {
                         //options.addArguments("--disable-extensions");
                         options.addArguments("--headless");
 			//options.addArguments("--window-size=1280x800");
-			driver=new ChromeDriver(options);
+			//driver=new ChromeDriver(options);
+			driver=new RemoteWebDriver(new URL("http://3.134.103.191:4444/wd/hub"),options);
 		
 		}
 		else if(browser.equals("firefox"))
@@ -155,7 +156,7 @@ public class Baseclass {
 	//public String[][] getData(String excelName, String sheetName)
 	//{ 
 		// /uiAutoframework/src/main/java/com/test/Autoframework/uiAutoframework/data/TestData.xlsx
-		//String path = System.getProperty("user.dir")+ "/src/main/java/DataSource/"+ excelName;
+		//String path = System.getProperty("user.dir")+ "/src/main/java/DataSource/"+ excelName;w
 		//excel = new ExcelReader(path);
 	    //String[][] data = excel.getDataFromSheet(sheetName, excelName);
 	    //return data;
