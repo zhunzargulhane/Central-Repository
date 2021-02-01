@@ -102,8 +102,8 @@ public class Baseclass {
                         //options.addArguments("--disable-extensions");
                         options.addArguments("--headless");
 			//options.addArguments("--window-size=1280x800");
-			//driver=new ChromeDriver(options);
-			driver=new RemoteWebDriver(new URL("http://3.134.103.191:4444/wd/hub"),options);
+			driver=new ChromeDriver(options);
+			//driver=new RemoteWebDriver(new URL("http://3.134.103.191:4444/wd/hub"),options);
 		
 		}
 		else if(browser.equals("firefox"))
