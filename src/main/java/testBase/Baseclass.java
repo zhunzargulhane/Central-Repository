@@ -95,17 +95,17 @@ public class Baseclass {
 			capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS,true);
 			capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS,true);
 			//options.setHeadless(true);
-                        options.addArguments("--disable-gpu");
-			options.addArguments("--dns-prefetch-disable");
+                        options.addArguments("enable-automation");
+                        options.addArguments("--headless");
+                        options.addArguments("--window-size=1280x800");
                         options.addArguments("--no-sandbox");
+                        options.addArguments("--disable-extensions");
+                        options.addArguments("--dns-prefetch-disable");
+                        options.addArguments("--disable-gpu");
                         options.addArguments("--disable-setuid-sandbox");
                        	options.addArguments("--disable-dev-shm-usage");
                         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-                        //options.addArguments("--disable-extensions");
-
-                        options.addArguments("--headless");
-			//options.addArguments("--window-size=1280x800");
-			driver=new ChromeDriver(options);
+                        driver=new ChromeDriver(options);
 			//driver=new RemoteWebDriver(new URL("http://3.134.103.191:4444/wd/hub"),options);
 		
 		}
