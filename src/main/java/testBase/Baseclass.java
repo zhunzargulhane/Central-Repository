@@ -105,8 +105,8 @@ public class Baseclass {
                         options.addArguments("--disable-setuid-sandbox");
                        	options.addArguments("--disable-dev-shm-usage");
                         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-                        driver=new ChromeDriver(options);
-			//driver=new RemoteWebDriver(new URL("http://3.134.103.191:4444/wd/hub"),options);
+                        //driver=new ChromeDriver(options);
+			driver=new RemoteWebDriver(new URL("http://3.134.103.191:8080/wd/hub"),options);
 		
 		}
 		else if(browser.equals("firefox"))
